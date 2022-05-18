@@ -1,0 +1,154 @@
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 50px;
+  margin: 0%;
+  padding-top: 1%;
+}
+
+.bouton {
+  padding: 1%;
+  color: rgb(255, 255, 255);
+}
+
+table,
+tr,
+td {
+  border: 2px solid rgb(32, 230, 14);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableContent {
+  min-width: 250px;
+  height: 300px;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#legendName {
+  position: relative;
+  max-width: 250px;
+  min-height: 250px;
+  bottom: 0px;
+  right: 25%;
+  left: 50%;
+}
+.photo {
+  border: 2px solid whitesmoke;
+}
+
+#randomizer {
+  margin-left: 10%;
+  cursor: pointer;
+  border: solid 2px whitesmokes;
+  border-radius: 9%;
+  background-color: #b31217;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2%;
+  font-family: Orbitron;
+  font-size: large;
+}
+
+#legend {
+  margin-bottom: 2%;
+  text-align: end;
+  margin-right: 25%;
+}
+
+#img0 {
+  margin-top: 2%;
+  margin-left: 23%;
+  width: 50%;
+}
+
+#img1 {
+  width: 50%;
+  margin-left: 23%;
+}
+
+#img2 {
+  width: 30%;
+  margin-left: 18%;
+}
+
+#img3 {
+  width: 26.7%;
+  margin-left: 2%;
+}
+
+h2 {
+  font-family: Bebas Neue;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  color: black;
+  margin-top: 0%;
+}
+
+#Lname {
+  font-family: Orbitron;
+  font-size: x-large;
+  color: white;
+}
+
+#texte {
+  font-family: Orbitron;
+  color: whitesmoke;
+  margin: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+#texteClo {
+  font-family: Orbitron;
+  color: black;
+  margin: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+#contexte {
+  background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 5px;
+}
+
+#selectorScreen {
+  background: #ada996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body{
+  margin:0;
+}
