@@ -43,20 +43,29 @@ td {
 #randomizer {
   margin-left: 10%;
   cursor: pointer;
-  border: solid 2px whitesmokes;
-  border-radius: 9%;
   background-color: #b31217;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 2%;
+  margin:0%;
+  padding: 0%;
   font-family: Orbitron;
   font-size: large;
+  text-align: center;
+  transition-duration: 0.3s;
+  
+}
+#randomizer:hover{
+  background-color:#8a0b10; 
+  color: white;
+
 }
 
+
 #legend {
-  margin-bottom: 2%;
-  text-align: end;
-  margin-right: 25%;
+  margin:0%;
+  align-self: right;
+  font-size: 200%;
+  font-family: Orbitron;
+  border: 1px solid black;
+  
 }
 
 #img0 {
@@ -97,6 +106,19 @@ h2 {
   font-family: Orbitron;
   font-size: x-large;
   color: white;
+  transition-duration: 0.3s;
+
+}
+#Lname:hover{
+  filter:brightness(50%);
+}
+
+
+#choisirPerso{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 #texte {
