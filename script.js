@@ -52,16 +52,20 @@ const min = 0;
 const max = legends.length - 1;
 
 function click(e){
-    const ran = getRandomNumberBetween(min, max);
+    const ran = getRandomNumberBetween(min, max)
     let LegendChoice = legends[ran]
     let LegendColor = legendsColor[ran]
     console.log(LegendColor)
     console.log(LegendChoice)
+    console.log()
     console.log(ran)
     
     const legendChoiceFin = document.getElementById("legend");
+
     legendChoiceFin.textContent = LegendChoice 
-  legendChoiceFin.style.color = LegendColor
+    legendChoiceFin.style.background = LegendColor
+    legendChoiceFin.style.visibility = "visible"
+
 }
 
 function getRandomNumberBetween(min, max) {
